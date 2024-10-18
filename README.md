@@ -30,39 +30,48 @@ Si este proyecto está en un repositorio de Git, clónalo o descárgalo en tu m�
 git clone <URL-del-repositorio>
 cd <directorio-del-proyecto>
 
+```
+
 Paso 2: Compilar el programa
 
 Este proyecto incluye un archivo Makefile que facilita la compilación. Simplemente ejecuta el siguiente comando en la terminal:
 
-bash
+
+```bash
 
 make
 
+```
 Esto generará un ejecutable llamado race.
 Paso 3: Ejecutar el programa
 
 Una vez que el programa haya sido compilado correctamente, puedes ejecutarlo con el siguiente comando:
 
-bash
+
+```bash
 
 ./race <distancia> <numero_de_autos>
 
+```
     distancia: La distancia total que deben recorrer los autos (en metros).
     numero_de_autos: El número total de autos que participarán en la carrera.
 
 Ejemplo de ejecución:
 
-bash
+
+```bash
 
 ./race 100 5
 
+```
 Este comando simula una carrera donde 5 autos deben recorrer 100 metros cada uno. Los autos avanzarán en intervalos aleatorios entre 1 y 10 metros, y se detendrán por pausas aleatorias entre 100 y 500 milisegundos.
 
 Salida esperada:
 
 Durante la carrera, el programa imprimirá el progreso de cada auto en tiempo real. Al final, mostrará un podio con los tres primeros autos que terminan la carrera y una lista de los autos restantes (si los hay).
 
-php
+
+```php
 
 Auto0 avanza 7 metros (total: 7 metros)
 Auto1 avanza 10 metros (total: 10 metros)
@@ -78,15 +87,18 @@ Auto0 ha terminado la carrera en el lugar 3!
 3er Lugar: Auto0
 ============================
 
+```
 Si hay menos de 3 autos, el programa mostrará una "X" en las posiciones vacantes del podio.
 Limpieza de archivos compilados
 
 Si deseas eliminar el ejecutable y los archivos de compilación, puedes usar el siguiente comando:
 
-bash
+
+```bash
 
 make clean
 
+```
 Esto eliminará el archivo race generado durante la compilación.
 Notas adicionales
 
