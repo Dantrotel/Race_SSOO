@@ -104,3 +104,9 @@ Notas adicionales
 
     El programa utiliza la biblioteca estándar de C++ para manejo de hebras (<thread>), sincronización con mutex (<mutex>) y generación de números aleatorios (<random>).
     La salida de la carrera está sincronizada para evitar colisiones de texto en la consola, y se utiliza un mutex para controlar la impresión en pantalla.
+
+
+##integrantes:
+
+- Fernando Flores
+- Daniel Aguayo 
