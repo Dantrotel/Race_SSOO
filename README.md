@@ -106,7 +106,7 @@ Notas adicionales
     La salida de la carrera está sincronizada para evitar colisiones de texto en la consola, y se utiliza un mutex para controlar la impresión en pantalla.
 
 
-##integrantes:
+## integrantes:
 
 - Fernando Flores
 - Daniel Aguayo 
