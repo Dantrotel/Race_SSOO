@@ -2,8 +2,6 @@
 
 # Simulación de Carrera de Autos con Multihebras en C++
 
-### Fernando Flores y Daniel Aguayo
-
 Este programa simula una carrera de autos utilizando programación con múltiples hebras en C++. Cada auto corre en su propia hebra, avanzando en intervalos de distancia y pausas aleatorias hasta completar la distancia total de la carrera. Al final, el programa muestra un podio con los tres primeros autos que terminan la carrera.
 
 ## Requisitos
